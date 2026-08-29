@@ -1,7 +1,6 @@
-//programm for relational operator.
 #include <stdio.h>
 #include <conio.h>
-int main()
+void main()
 {
     int a=20,b=6,c,d,e=7;
     c=b++;
@@ -10,5 +9,4 @@ int main()
     printf("%d",b==e);
     printf("%d",c+1>a);
     printf("%d",a+c==b<e>c+d);
-    return 0;
 }
